@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabos Kitchen</title>
+    <link rel="stylesheet" href="Gabos menu.css">
+
+</head>
+<body>
+    <section id="top">
+        <header>
+            <img id="sanji" src="https://i.pinimg.com/736x/31/f4/dd/31f4ddb56d5954a8c74e34082d0dac88--jolly-roger-logo.jpg" alt="sanji">
+            <h1>GabosKitchen</h1>
+            <nav id="banner">
+              <a href="Gabos Kitchen.html">HOME</a>
+              <a href="Gabos menu.html">MENU</a>
+              <a href="Gabos contact.html">CONTACT</a>
+              <a href="Gabos about.html">ABOUT</a>
+            </nav>
+        </header>
+    
+    </section>
+    <form action="Gabos besteld.html" method="POST">
+    <section id="menu">
+    <h2>Stel Uw Bestelling Samen </h2>
+<br >
+<label for="portie">Hoeveel Porties Wilt U?</label>
+<br>
+<input type="number" name="portie" min="0">
+<hr>
+     <label for="spice level">Hoe Heet Wil Je Het? </label>
+<br >
+     <span>MILD</span>
+     <input type="range" name="spice level" id="spice level" value="3" min="1" max="3">
+     <span>HOT</span>
+<hr>
+<br>
+     <label>Extra's?</label>
+ <br>
+       <input type="checkbox" name="extra's" value="garnal">
+       <label for="garnal">Garnal</label>
+       <input type="checkbox" name="extra's" value="plantain">
+       <label for="plantain">Plantain</label>
+       <input type="checkbox" name="extra's" value="kip">
+       <label for="kip">Kip</label>
+       <hr>
+<label for="allergie">Bent U Allergisch Voor Iets?</label>
+<br>
+<textarea name="allergie" rows="3" cols="40"></textarea>
+<hr>
+<input type="submit" value="Verzenden">
+</section>
+</form>
+</body>
+</html>

@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+    
+}
+  /* Add a black background color to the top navigation */
+  #banner {
+    background-color: #e6a01d;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  #banner a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  #banner a:hover {
+    background-color: #84A07C;
+    color: rgb(0, 0, 0);
+  }
+  #sanji{
+    height: 150px;
+    width: auto;
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+  header h1{
+    color: #f2f2f2;
+   /* text-align: center; */
+    margin-left: 50%;
+    margin-right: 50%;
+    font-family: "Lucida Bright", Georgia, serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; 
+  }
+  h2{
+    color: #f2f2f2;
+    margin-left: 50%;
+    margin-right: auto;
+    margin-top: 10%;
+    font-family:   "Lucida Bright", Georgia, serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; 
+  }
+  #eten{
+    float: left;
+    height: 300px;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 0%;
+    margin-bottom: 30%;
+    margin-top: 10%;
+    border: solid 4px  #e6a01d ;
+    border-radius: 30px;
+ }
+ 
+  #unc{
+    float: right;
+    height: 300px;
+    width: auto;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 0%;
+    border: solid 4px  #e6a01d ;
+    border-radius: 30px;
+
+ }
+  
+
+ /* #foot-banner{
+    width: 100%;
+    background-image: url(http://s30.postimg.org/x0ne0p5wx/bootsrap.png);
+    height: 250px;
+    background-color: #595F72;
+    background-position: center;
+    margin-bottom: 0%;
+    
+}
+
+p,
+h3{
+  background-color: #595F72;
+  text-align: center;
+  margin-top: 0%;
+}
